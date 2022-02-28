@@ -1,0 +1,98 @@
+.listBody {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.bodyCenter {
+  background-color: #ffffff;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > p {
+  font-family: "Dancing Script";
+  font-size: x-large;
+  font-weight: 700;
+  margin: 0;
+}
+
+.headerMenu {
+  display: flex;
+  margin: 0;
+}
+
+.headerMenu a {
+  text-decoration: none;
+  font-size: small;
+  color: #b87835;
+  padding-right: 1rem;
+}
+
+.headerMenu a:last-child {
+  padding-right: 2rem;
+}
+
+header,
+.title {
+  padding: 0.5rem 1rem;
+  background-color: #f4f4f2;
+}
+
+.title {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.coldBrewSet,
+.brewedSet {
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  justify-content: space-between;
+  /* width: 100%; */
+}
+
+/* .brewedCoffee,
+.coldBrew {
+  margin: 0;
+} */
+
+.brewedCoffee a,
+.coldBrew a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.imgWrap {
+  overflow: hidden;
+}
+
+.coldBrew img,
+.brewedCoffee img {
+  transition: 0.2s;
+  width: 20vw;
+  height: 20vw;
+}
+
+.coldBrew img:hover,
+.brewedCoffee img:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+
+.coldBrew p,
+.brewedCoffee p {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.coldBrew i,
+.brewedCoffee i {
+  cursor: pointer;
+}
